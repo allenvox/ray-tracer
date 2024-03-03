@@ -8,13 +8,13 @@ jobs:
       - uses: actions/checkout@v3
       - name: Check codestyle
         run: git ls-files '*.c' '*.h' '*.cpp' '*.hpp' | xargs clang-format -i --verbose && git diff --exit-code
-  build_all:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - name: Build
         run: cmake --preset release && cmake --build --preset release
-  run_all:
+  run:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
