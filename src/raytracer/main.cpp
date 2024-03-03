@@ -1,8 +1,8 @@
-#include "rtweekend.h"
+#include "rtweekend.hpp"
 
-#include "camera.h"
-#include "hittable_list.h"
-#include "sphere.h"
+#include "camera.hpp"
+#include "hittable_list.hpp"
+#include "sphere.hpp"
 
 int main() {
   hittable_list world;

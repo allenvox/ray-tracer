@@ -1,9 +1,9 @@
 #pragma once
 
-#include "rtweekend.h"
+#include "rtweekend.hpp"
 
-#include "color.h"
-#include "hittable.h"
+#include "color.hpp"
+#include "hittable.hpp"
 
 #include <iostream>
 
