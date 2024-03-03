@@ -11,5 +11,5 @@ target_sources(
 target_include_directories(
   raytracer
   PUBLIC
-  ${PROJECT_SOURCE_DIR}/external
+  ${PROJECT_SOURCE_DIR}/src/include
 )
