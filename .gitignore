@@ -1,4 +1,7 @@
-### build directory ###
+### Images ###
+*.ppm
+
+### Build directory ###
 build
 
 ### JetBrains IDE ###
