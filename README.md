@@ -3,9 +3,11 @@
 Build: `cmake --preset release && cmake --build --preset release`<br>
 Run: `build/release/bin/raytracer > image.ppm`
 ### Example images:
-###### Diffuse sphere with no shadow acne ([commit]())
+###### Metal & Lambertian sphere materials ([commit](https://github.com/allenvox/ray-tracer/tree/98c76d39869021d35ad793d6fbec21954396d843))
+![7](examples/7.jpg)
+###### Diffuse sphere with no shadow acne ([commit](https://github.com/allenvox/ray-tracer/tree/8bf74026fe05d62e404a57aa4a8a90bd79651bcd))
 ![6](examples/6.jpg)
-###### Diffuse sphere ([commit]())
+###### Diffuse sphere ([commit](https://github.com/allenvox/ray-tracer/tree/12f7e0e9929322bcb155471779ce426db12a5cd1))
 ![5](examples/5.jpg)
 ###### Sphere with antialiasing ([commit](https://github.com/allenvox/ray-tracer/tree/580a02dffecbed07362f1b632d736bb5a16b3565))
 ![4](examples/4.jpg)
